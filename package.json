@@ -1,0 +1,53 @@
+{
+  "name": "HobbyIt",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-brands-svg-icons": "^5.8.2",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "firebase": "^5.9.2",
+    "react": "16.8.3",
+    "react-native": "0.59.2",
+    "react-native-animatable": "^1.3.2",
+    "react-native-elements": "^1.1.0",
+    "react-native-firebase": "^5.2.3",
+    "react-native-fontawesome": "^6.0.1",
+    "react-native-geolocation-service": "^2.0.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-crop-picker": "^0.23.1",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-maps": "github:react-native-community/react-native-maps#master",
+    "react-native-modal": "^9.0.0",
+    "react-native-modalbox": "^1.7.1",
+    "react-native-svg": "^9.4.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.5.1",
+    "rn-fetch-blob": "^0.10.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
